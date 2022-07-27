@@ -106,6 +106,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "accent-2",
@@ -123,7 +124,6 @@
         "type": "header",
         "settings": {
           "color_scheme": "accent-1",
-          "logo": "shopify:\/\/shop_images\/3.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
