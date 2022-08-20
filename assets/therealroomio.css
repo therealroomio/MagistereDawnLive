@@ -41,10 +41,7 @@ body{
 }
 .card__inner{
     background: #ffffff;
-    border: 0px solid #ffffff;
-}
-.card__inner img{
-    border: 0px solid #ffffff;
+    border: 10px solid #ffffff;
 }
 .quoteblock{
     padding: 5vw;
