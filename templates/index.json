@@ -179,6 +179,86 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1661010324ff48f931": {
+      "type": "collection-list",
+      "blocks": {
+        "166101032446816d89-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "alpha-stack"
+          }
+        },
+        "166101032446816d89-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brawler-stack"
+          }
+        },
+        "166101032446816d89-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gutfather-stack"
+          }
+        }
+      },
+      "block_order": [
+        "166101032446816d89-0",
+        "166101032446816d89-1",
+        "166101032446816d89-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "inverse",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 12
+      }
+    },
+    "1661010391e0e48c6e": {
+      "type": "collection-list",
+      "blocks": {
+        "1661010391c6e67cf4-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "man-of-war-stack"
+          }
+        },
+        "1661010391c6e67cf4-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "slim-trim-stack"
+          }
+        },
+        "1661010391c6e67cf4-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "waste-removal-pack"
+          }
+        }
+      },
+      "block_order": [
+        "1661010391c6e67cf4-0",
+        "1661010391c6e67cf4-1",
+        "1661010391c6e67cf4-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "inverse",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -187,6 +267,8 @@
     "165784808905ae81c4",
     "video",
     "rich_text",
-    "165811350629dcb174"
+    "165811350629dcb174",
+    "1661010324ff48f931",
+    "1661010391e0e48c6e"
   ]
 }
