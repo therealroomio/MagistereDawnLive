@@ -54,33 +54,6 @@
         "stackgraphics": ""
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 10,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "165784808905ae81c4": {
       "type": "slideshow",
       "disabled": true,
@@ -190,97 +163,6 @@
         "padding_bottom": 80
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "b5e35aab-cfc2-41b6-832f-ca2947b36899": {
-          "type": "image",
-          "settings": {
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "apple-cider-vinegar-gummies",
-            "second_image": false
-          }
-        },
-        "bd2b55ad-955b-41bd-a6eb-4f9ba4a4d28e": {
-          "type": "image",
-          "settings": {
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "b5e35aab-cfc2-41b6-832f-ca2947b36899",
-        "product",
-        "bd2b55ad-955b-41bd-a6eb-4f9ba4a4d28e"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "165811350629dcb174": {
       "type": "featured-blog",
       "settings": {
@@ -302,12 +184,9 @@
   "order": [
     "image_banner",
     "1658040937c84050f8",
-    "featured_collection",
     "165784808905ae81c4",
     "video",
     "rich_text",
-    "collage",
-    "multicolumn",
     "165811350629dcb174"
   ]
 }
