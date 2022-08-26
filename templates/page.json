@@ -2,13 +2,117 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
+      }
+    },
+    "1661552376ee4db928": {
+      "type": "collection-list",
+      "blocks": {
+        "1661552376024be26e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brawler-stack"
+          }
+        },
+        "1661552376024be26e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "black-mamba-aplha-pack"
+          }
+        },
+        "71edff00-2aba-45e6-85e4-2380a8ef7ee5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "titan-stack"
+          }
+        },
+        "1661552376024be26e-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "man-of-war-stack"
+          }
+        }
+      },
+      "block_order": [
+        "1661552376024be26e-0",
+        "1661552376024be26e-1",
+        "71edff00-2aba-45e6-85e4-2380a8ef7ee5",
+        "1661552376024be26e-2"
+      ],
+      "settings": {
+        "title": "Black Mamba Stacks",
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "color_scheme": "accent-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1661553228ac7d3d22": {
+      "type": "collection-list",
+      "blocks": {
+        "1661553228fa3fe4f1-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "slim-trim-stack"
+          }
+        },
+        "1661553228fa3fe4f1-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "waste-removal-pack"
+          }
+        },
+        "1661553228fa3fe4f1-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gutfather-stack"
+          }
+        },
+        "681461c8-737c-4b93-a5f6-9b8b80283b29": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "booster-stack"
+          }
+        },
+        "b04bcc5b-ad95-42e2-b67d-abdfdcb0764b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zen-stack"
+          }
+        }
+      },
+      "block_order": [
+        "1661553228fa3fe4f1-1",
+        "1661553228fa3fe4f1-2",
+        "1661553228fa3fe4f1-0",
+        "681461c8-737c-4b93-a5f6-9b8b80283b29",
+        "b04bcc5b-ad95-42e2-b67d-abdfdcb0764b"
+      ],
+      "settings": {
+        "title": "Stacks",
+        "heading_size": "h0",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1661552376ee4db928",
+    "1661553228ac7d3d22"
   ]
 }
