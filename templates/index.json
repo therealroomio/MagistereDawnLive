@@ -13,14 +13,14 @@
         "55e7dd3d-e5dd-4aba-91ac-6bc618c55f15": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Discover The Mentality",
             "button_link_1": "shopify:\/\/products\/whey-premium-protein-blend",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/bg.jpg",
+        "image": "shopify:\/\/shop_images\/black-monstera-leaves-background-wallpaper.png",
         "image_overlay_opacity": 50,
         "image_height": "large",
         "adapt_height_first_image": false,
