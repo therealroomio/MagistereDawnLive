@@ -259,6 +259,11 @@
         "padding_top": 0,
         "padding_bottom": 80
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -269,6 +274,7 @@
     "rich_text",
     "165811350629dcb174",
     "1661010324ff48f931",
-    "1661010391e0e48c6e"
+    "1661010391e0e48c6e",
+    "pagefly-home"
   ]
 }
