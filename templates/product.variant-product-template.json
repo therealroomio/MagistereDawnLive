@@ -64,6 +64,7 @@
         },
         "4263976d-5cca-46fd-aa53-e04ed50dfcdd": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Selection",
             "icon": "price_tag",
@@ -73,6 +74,7 @@
         },
         "937857d0-38d7-44b3-a862-7a5f1ef51f0b": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Ultra Test",
             "icon": "heart",
@@ -82,6 +84,7 @@
         },
         "5d460667-4d2e-4053-8bb2-cfa267a8a80e": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Male Multivitamins",
             "icon": "perfume",
@@ -91,6 +94,7 @@
         },
         "9d610423-8993-4144-bf6b-507a90a8be4e": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Creatine",
             "icon": "dairy",
@@ -100,7 +104,14 @@
         },
         "15ab435a-9e4f-45c0-95ae-c6c328679df8": {
           "type": "rating",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "84bf385c-fd53-40ee-9851-36c3fbf3ca44": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% for stack_includes in product.metafields.custom.stack_includes.value -%}\n  {{ stack_includes }}\n{%- endfor %}\n\n{{ stack_includes }}"
           }
         }
       },
@@ -119,7 +130,8 @@
         "937857d0-38d7-44b3-a862-7a5f1ef51f0b",
         "5d460667-4d2e-4053-8bb2-cfa267a8a80e",
         "9d610423-8993-4144-bf6b-507a90a8be4e",
-        "15ab435a-9e4f-45c0-95ae-c6c328679df8"
+        "15ab435a-9e4f-45c0-95ae-c6c328679df8",
+        "84bf385c-fd53-40ee-9851-36c3fbf3ca44"
       ],
       "settings": {
         "enable_sticky_info": true,
